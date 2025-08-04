@@ -1,5 +1,4 @@
 # Sistem E-Ticketing Transportasi Publik
----
 
 ## Desain Sistem dan Arsitektur
 
@@ -95,7 +94,7 @@ Ikuti langkah-langkah berikut untuk menjalankan proyek ini di lingkungan lokal A
 
 **1. Clone Repositori**
 ```bash
-git clone [https://github.com/NAMA_USER_ANDA/NAMA_REPO_ANDA.git](https://github.com/NAMA_USER_ANDA/NAMA_REPO_ANDA.git)
+git clone https://github.com/AdityaNugraha1/e-ticketing-api.git
 cd e-ticketing-api
 ```
 
@@ -103,9 +102,9 @@ cd e-ticketing-api
 Masuk ke psql dan buat database serta user baru.
 ```bash
 psql -U postgres
-CREATE DATABASE eticketing_db;
-CREATE USER eticketing_user WITH PASSWORD 'password_anda';
-GRANT ALL PRIVILEGES ON DATABASE eticketing_db TO eticketing_user;
+CREATE DATABASE eticketing_db
+CREATE USER eticketing_user WITH PASSWORD 'password_anda'
+GRANT ALL PRIVILEGES ON DATABASE eticketing_db TO eticketing_user
 ```
 
 **3. Impor Skema Database**
